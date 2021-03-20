@@ -24,7 +24,7 @@ public class CaseStudy {
         String oname = prog.nextLine();
         p.getOName(oname);
 
-	//Fagaragan
+	//Marc Cedric Fagaragan
 	System.out.print("Rent Amount per hours: ");
         int rent = prog.nextInt();
         p.getRent(rent);
