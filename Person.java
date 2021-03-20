@@ -12,8 +12,9 @@ package casestudy;
 class Person {
          private String rname;
     private String oname;
-    
- 
+    private int rent;
+    private int OT;
+
 
     //Method 1: 
     public void getRName(String rname)
@@ -37,4 +38,27 @@ class Person {
         return oname;
         
     }
+
+	//Method 7: Marc Cedric Fagaragan
+    public void getRent(int rent)
+    {
+        this.rent = rent;
+    }
+    
+    public int showrent()
+    {
+        return rent;
+    }
+    
+    //Method 8: Marc Cedric Fagaragan
+    public void getOT(int OT)
+    {
+        this.OT = OT;
+    }
+    
+    public int showOT()
+    {
+        return OT;
+    }
+
 }
