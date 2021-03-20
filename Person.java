@@ -39,7 +39,7 @@ class Person {
         
     }
 
-	//Method 7: Marc Cedric Fagaragan
+    //Method 7: Marc Cedric Fagaragan
     public void getRent(int rent)
     {
         this.rent = rent;
