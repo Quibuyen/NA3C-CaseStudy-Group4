@@ -60,5 +60,23 @@ class Person {
     {
         return OT;
     }
-
+    
+    //Method 11: Rommel Christian Sindayen
+    public int TRent()
+    {
+	int TotalRent = (rent * 10)+OTAmount;
+	return TotalRent;
+    }
+    
+    //Method 12: Rommel Christian Sindayen
+    public int TRentTax()
+    {
+	int RentTax = (rent*10 + OTAmount) -tax;
+	return RentTax;
+    }
+    public void result()
+    {
+	System.out.println("The Total Rent is: " +TRent());
+	System.out.println("The Total Rent with Tax: " +TRentTax());
+    }
 }
