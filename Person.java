@@ -100,6 +100,27 @@ public String showModel(){
         return OT;
     }
     
+//Method 9: Christian Baun
+    public void getOTAmount(int OTAmount)
+    {
+        this.OTAmount = OTAmount;
+    }
+    
+    public int showOTAmount()
+    {
+        return OTAmount;
+    }
+  
+    //Method 10: Christian Baun
+    public void getTax(int tax)
+    {
+        this.tax = tax;
+    }
+    
+    public int showTax()
+    {
+        return tax;
+    }
     //Method 11: Rommel Christian Sindayen
     public int TRent()
     {
