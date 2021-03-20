@@ -11,7 +11,9 @@ package casestudy;
  */
 class Person {
          private String rname;
-    private String oname;
+    private String oname;    
+private int phoneNum;
+    private int numD;
     private int rent;
     private int OT;
 
@@ -38,6 +40,27 @@ class Person {
         return oname;
         
     }
+//Method 5: Pangilinan,Ralph Lorenz
+    public void getPhoneNum(int phoneNum)
+    {
+        this.phoneNum = phoneNum;
+    }
+    
+    public int showPhoneNum()
+    {
+        return phoneNum;
+    }
+    
+    //Method 6: Pangilinan,Ralph Lorenz
+    public void getNumofD(int numD)
+    {
+        this.numD = numD;
+    }
+    
+    public int showNumofD()
+    {
+        return numD;
+    }
 
     //Method 7: Marc Cedric Fagaragan
     public void getRent(int rent)
@@ -62,3 +85,4 @@ class Person {
     }
 
 }
+
