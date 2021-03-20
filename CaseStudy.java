@@ -23,6 +23,16 @@ public class CaseStudy {
         System.out.print("Full Name of Owners: ");
         String oname = prog.nextLine();
         p.getOName(oname);
+	
+	//Pangilinan, Ralph Lorenz
+	System.out.print("Phone No.: ");
+        int phoneNum= prog.nextInt();
+        p.getPhoneNum(0);
+
+
+        System.out.print("No. of hours To Rent: ");
+        int numD = prog.nextInt();
+        p.getNumofD(numD);
 
 	//Marc Cedric Fagaragan
 	System.out.print("Rent Amount per hours: ");
