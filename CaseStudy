@@ -1,0 +1,22 @@
+
+import java.util.*;
+
+
+public class CaseStudy {
+
+    public static void main(String[] args) {
+    Scanner prog = new Scanner(System.in);
+
+        Person p = new Person();
+	//Geron Daril "Method 3"
+        System.out.print("Address of Renters: ");
+        String address = prog.nextLine();
+        p.getAdress(address);
+
+	//Geron Daril "Method 4"
+        System.out.print("Car Model: ");
+        String model = prog.nextLine();
+        p.getModel(model);
+   }
+
+ }
