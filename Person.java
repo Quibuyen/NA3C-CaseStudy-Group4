@@ -13,6 +13,8 @@ class Person {
          private String rname;
     private String oname;    
 private int phoneNum;
+private String address;
+private String Model;
     private int numD;
     private int rent;
     private int OT;
@@ -40,6 +42,20 @@ private int phoneNum;
         return oname;
         
     }
+//Method 3: Geron Daril
+public void getAddress(String address){
+	this.address = address;
+}
+public String showAddress(){
+	return address;
+}
+//Method 4: Geron Daril
+public void getModel(String model){
+	this.model = model;
+}
+public String showModel(){
+	return model;
+}
 //Method 5: Pangilinan,Ralph Lorenz
     public void getPhoneNum(int phoneNum)
     {
