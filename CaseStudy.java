@@ -54,6 +54,18 @@ public class CaseStudy {
         int OT = prog.nextInt();
         p.getOT(OT);
 
+        //Christian Baun
+        System.out.print("Amount of Overtime per hours of rent: ");
+        int OTAmount = prog.nextInt();
+        p.getOTAmount(OTAmount);
+
+
+        System.out.print("Amount of Tax: ");
+        int tax = prog.nextInt();
+        p.getTax(tax);
+
+
+        p.result();
     }
  }
     
