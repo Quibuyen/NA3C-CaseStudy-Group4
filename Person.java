@@ -92,9 +92,7 @@ public String showModel(){
     //Method 8: Marc Cedric Fagaragan
     public void getOT(int OT)
     {
-        this.OT = OT;
-    }
-    
+        this
     public int showOT()
     {
         return OT;
@@ -121,6 +119,8 @@ public String showModel(){
     {
         return tax;
     }
+    
+    public int showO
     //Method 11: Rommel Christian Sindayen
     public int TRent()
     {
